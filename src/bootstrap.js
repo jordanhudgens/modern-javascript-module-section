@@ -1,4 +1,3 @@
-import * as helper from './helper';
+import navigation, { greeting, multiply } from './navigation';
 
-console.log(helper.greeting);
-console.log(helper.multiply(5, 6));
+console.log(greeting);
